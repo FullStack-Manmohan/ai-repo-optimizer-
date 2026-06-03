@@ -32,4 +32,4 @@ This is the central blueprint representing the architectural truth and constrain
 
 ## 🔒 Security & Privacy Limits
 - **Secrets Management**: All sensitive environment parameters live strictly in `.env.local` or `.env`. This must never be committed to git.
-- **Third-Party Data Flow**: *E.g. Qualtrics profiles or Firebase rules constraints*
+- **Third-Party Data Flow**: *E.g. external API profiles, webhook rules, or database access constraints*

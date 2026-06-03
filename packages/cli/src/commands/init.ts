@@ -141,7 +141,7 @@ export async function handleInit(targetPath: string, options: InitOptions) {
     }
 
     // Next steps
-    clack.outro('Next Steps:\n1. Open docs/AI_CONTEXT.md and customize your system outline.\n2. In copilot or agents prompts, specify: "Read docs/AI_CONTEXT.md first".\n3. Enjoy massive context token savings!');
+    clack.outro('Next Steps:\n1. Open docs/AI_CONTEXT.md and customize your system outline.\n2. In copilot or agents prompts, specify: "Read docs/AI_CONTEXT.md first".\n3. Reduce repeated context loading and keep future prompts smaller.');
   } catch (err: any) {
     clack.log.error(`Initialization failed: ${err.message || String(err)}`);
     process.exit(1);

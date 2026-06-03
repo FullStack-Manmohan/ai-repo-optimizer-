@@ -141,7 +141,7 @@ export async function handleDoctor(targetPath: string) {
       'Issues & Recommendations Detected'
     );
   } else {
-    clack.log.success('🎉 Perfect! Your repository is 100% token-optimized and context-secured. Excellent work!');
+    clack.log.success('🎉 Perfect! Your repository is highly optimized and context-secured. Excellent work!');
   }
 
   clack.outro('Audit complete.');

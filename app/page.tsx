@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 
 export default function DashboardPage() {
   // Config state for the interactive generator form
-  const [projName, setProjName] = useState('AlohaCoin Dashboard');
+  const [projName, setProjName] = useState('Project Dashboard');
   const [preset, setPreset] = useState('nextjs');
   const [techStack, setTechStack] = useState('Next.js 14, Tailwind CSS, TypeScript, Supabase, Vercel');
   const [customStyle, setCustomStyle] = useState('Strict absolute imports (@/components/*), functional state stores, use custom useAsync hook for database async fetching.');
@@ -59,7 +59,7 @@ ${noRewrites ? '- **Strict Surgical Edits**: You are explicitly forbidden from p
           The Ultimate AI Context Engine
         </h1>
         <p className="max-w-3xl mx-auto text-lg sm:text-xl text-slate-400 font-medium">
-          Slash up to 90% of your Copilot, Claude, and Gemini API token costs while maximizing code correctness. Instruct AI models to read dense local repo-level memory rather than scanning files recursively.
+          Reduce unnecessary Copilot, Claude, and Gemini context usage while improving code correctness. Instruct AI models to read dense local repo-level memory rather than scanning files recursively.
         </p>
 
         <div className="flex flex-wrap justify-center gap-4 pt-4">
@@ -82,7 +82,7 @@ ${noRewrites ? '- **Strict Surgical Edits**: You are explicitly forbidden from p
       <section id="about" className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-10 border-t border-slate-800/80">
         <div className="p-6 rounded-xl border border-slate-800 bg-slate-900/30 space-y-3">
           <span className="text-3xl">🪙</span>
-          <h3 className="text-lg font-bold text-cyan-400">90% Token Savings</h3>
+          <h3 className="text-lg font-bold text-cyan-400">Token Savings</h3>
           <p className="text-slate-400 text-sm">
             Swaps lengthy chat-thread context history for physical local memory files. The context stays compressed, maintaining short prompts.
           </p>

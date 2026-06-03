@@ -1,6 +1,6 @@
 # AI Repo Optimizer 🚀
 
-Centralized AI repository optimizer for GitHub Copilot, Cursor, Gemini, and Claude. Keeps your development context precise, saves massive amounts of input/output API tokens, and prevents context leakage across organizations.
+Centralized AI repository optimizer for GitHub Copilot, Cursor, Gemini, and Claude. Keeps your development context precise, reduces unnecessary input/output token usage, and prevents context leakage across organizations.
 
 ## Structure
 
