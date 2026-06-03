@@ -1,15 +1,19 @@
 {
   "name": "ai-repo-optimizer-monorepo",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "description": "Central repository for AI context optimization across all projects",
+  "bin": {
+    "ai-repo-optimizer": "./packages/cli/dist/index.js"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "cli:build": "npm run build --workspace=packages/cli",
-    "cli:dev": "npm run dev --workspace=packages/cli"
+    "cli:dev": "npm run dev --workspace=packages/cli",
+    "prepare": "npm run cli:build"
   },
   "workspaces": [
     "packages/cli"

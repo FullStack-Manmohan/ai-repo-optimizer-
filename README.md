@@ -35,7 +35,13 @@ Instead of letting AI models scan the whole project or burn credits rebuilding c
 
 ## Installation & Setup
 
-Install the context engine in any target project repository:
+You can run the optimizer directly from GitHub without publishing to npm using:
+
+```bash
+npx github:FullStack-Manmohan/ai-repo-optimizer init --preset nextjs
+```
+
+Or, if published to npm:
 
 ```bash
 npx @fullstack-manmohan/ai-repo-optimizer init --preset nextjs
@@ -44,13 +50,13 @@ npx @fullstack-manmohan/ai-repo-optimizer init --preset nextjs
 Or run the doctor tool to audit configurations:
 
 ```bash
-npx @fullstack-manmohan/ai-repo-optimizer doctor
+npx github:FullStack-Manmohan/ai-repo-optimizer doctor
 ```
 
 Synchronize updated global prompts without overwriting local custom histories:
 
 ```bash
-npx @fullstack-manmohan/ai-repo-optimizer sync
+npx github:FullStack-Manmohan/ai-repo-optimizer sync
 ```
 
 ## Privacy & Organization Safety
@@ -58,4 +64,3 @@ npx @fullstack-manmohan/ai-repo-optimizer sync
 - Personal and Client/Org boundaries are preserved.
 - Local custom logic details (`docs/*`) are kept strictly local to separate environments.
 - Core commands are fully deterministic and run entirely offline.
-# ai-repo-optimizer-
