@@ -1,0 +1,7 @@
+
+# AI Repo Optimizer - Safety Rules
+.env
+.env.local
+.env.*.local
+node_modules
+dist

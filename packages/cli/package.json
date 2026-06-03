@@ -1,15 +1,16 @@
 {
-  "name": "@fullstack-manmohan/ai-repo-optimizer",
+  "name": "@manmohanyadav/ai-repo-optimizer",
   "version": "1.0.0",
   "description": "NPM-driven CLI utility to install and sync token-optimized project-local AI context files.",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "bin": {
-    "ai-repo-optimizer": "./dist/index.js"
+    "ai-repo-optimizer": "dist/index.js"
   },
   "files": [
-    "dist"
+    "dist",
+    "templates"
   ],
   "scripts": {
     "build": "tsc",
@@ -34,5 +35,6 @@
   "devDependencies": {
     "@types/node": "^20.12.12",
     "typescript": "^5.4.5"
-  }
+  },
+  "directories": {}
 }
