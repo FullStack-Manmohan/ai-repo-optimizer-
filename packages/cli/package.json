@@ -1,0 +1,38 @@
+{
+  "name": "@fullstack-manmohan/ai-repo-optimizer",
+  "version": "1.0.0",
+  "description": "NPM-driven CLI utility to install and sync token-optimized project-local AI context files.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "ai-repo-optimizer": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node ./dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ai",
+    "copilot",
+    "context-window",
+    "optimization",
+    "cli",
+    "developer-tools"
+  ],
+  "author": "FullStack-Manmohan",
+  "license": "MIT",
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "typescript": "^5.4.5"
+  }
+}
