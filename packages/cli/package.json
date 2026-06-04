@@ -1,6 +1,6 @@
 {
   "name": "@manmohanyadav/ai-repo-optimizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NPM-driven CLI utility to install and sync token-optimized project-local AI context files.",
   "type": "module",
   "main": "./dist/index.js",
@@ -35,6 +35,5 @@
   "devDependencies": {
     "@types/node": "^20.12.12",
     "typescript": "^5.4.5"
-  },
-  "directories": {}
+  }
 }

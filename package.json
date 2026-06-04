@@ -4,7 +4,7 @@
   "private": false,
   "description": "Central repository for AI context optimization across all projects",
   "bin": {
-    "ai-repo-optimizer": "./packages/cli/dist/index.js"
+    "ai-repo-optimizer": "packages/cli/dist/index.js"
   },
   "scripts": {
     "dev": "next dev",
